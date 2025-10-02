@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb78ff8788456af69c17d6c686607bea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb78ff8788456af69c17d6c686607bea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb78ff8788456af69c17d6c686607bea = L.map(
+                "map_bb78ff8788456af69c17d6c686607bea",
+                {
+                    center: [22.9734, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4ba7bf54997ebd2df69a471de44bd1a8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4ba7bf54997ebd2df69a471de44bd1a8.addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+            var circle_marker_902ef02aa65835ac975d26f1c2bd593f = L.circleMarker(
+                [27.18, 78.02],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_0bd6dae238d2f7a83e4b175984e8f16f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0a88d5dd0d9cf53998c842d402406bc = $(`<div id="html_f0a88d5dd0d9cf53998c842d402406bc" style="width: 100.0%; height: 100.0%;"><b>Agra</b><br>SO₂: 6.5 µg/m³<br>NO₂: 19.9 µg/m³<br>RSPM: 170.6 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_0bd6dae238d2f7a83e4b175984e8f16f.setContent(html_f0a88d5dd0d9cf53998c842d402406bc);
+            
+        
+
+        circle_marker_902ef02aa65835ac975d26f1c2bd593f.bindPopup(popup_0bd6dae238d2f7a83e4b175984e8f16f)
+        ;
+
+        
+    
+    
+            var circle_marker_391df0b45f935fff031796faa25ffbdb = L.circleMarker(
+                [23.0225, 72.5714],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_99373ce34f182f67a39b1362efbe13c6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e92fa91b694c9706eead6021623b7b3b = $(`<div id="html_e92fa91b694c9706eead6021623b7b3b" style="width: 100.0%; height: 100.0%;"><b>Ahmedabad</b><br>SO₂: 14.2 µg/m³<br>NO₂: 22.3 µg/m³<br>RSPM: 93.8 µg/m³<br>PM2.5: 29.1 µg/m³</div>`)[0];
+                popup_99373ce34f182f67a39b1362efbe13c6.setContent(html_e92fa91b694c9706eead6021623b7b3b);
+            
+        
+
+        circle_marker_391df0b45f935fff031796faa25ffbdb.bindPopup(popup_99373ce34f182f67a39b1362efbe13c6)
+        ;
+
+        
+    
+    
+            var circle_marker_ab4b8920d9dfe74c117c68ed285bc0f2 = L.circleMarker(
+                [31.64, 74.86],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_9673299815a7b9822ffedd4d652255f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1ff228a3db56b907ee8bbb36998c7a3 = $(`<div id="html_e1ff228a3db56b907ee8bbb36998c7a3" style="width: 100.0%; height: 100.0%;"><b>Amritsar</b><br>SO₂: 13.5 µg/m³<br>NO₂: 35.8 µg/m³<br>RSPM: 157.1 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_9673299815a7b9822ffedd4d652255f5.setContent(html_e1ff228a3db56b907ee8bbb36998c7a3);
+            
+        
+
+        circle_marker_ab4b8920d9dfe74c117c68ed285bc0f2.bindPopup(popup_9673299815a7b9822ffedd4d652255f5)
+        ;
+
+        
+    
+    
+            var circle_marker_387e013d2027a5aea1daa194d0c7e218 = L.circleMarker(
+                [19.88, 75.32],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_523f9e1ba185124e2010eba5172bad29 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68808267d15d5093f2968755974d8ba2 = $(`<div id="html_68808267d15d5093f2968755974d8ba2" style="width: 100.0%; height: 100.0%;"><b>Aurangabad</b><br>SO₂: 10.0 µg/m³<br>NO₂: 33.0 µg/m³<br>RSPM: 81.6 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_523f9e1ba185124e2010eba5172bad29.setContent(html_68808267d15d5093f2968755974d8ba2);
+            
+        
+
+        circle_marker_387e013d2027a5aea1daa194d0c7e218.bindPopup(popup_523f9e1ba185124e2010eba5172bad29)
+        ;
+
+        
+    
+    
+            var circle_marker_95cb586ecf2f06c5be661f50433c6071 = L.circleMarker(
+                [21.5033, 86.925],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_cc87c70bcdc3862368f7dcad59fbbe47 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1dd9e9b69f4e9af350aacd29a51bf35 = $(`<div id="html_a1dd9e9b69f4e9af350aacd29a51bf35" style="width: 100.0%; height: 100.0%;"><b>Balasore</b><br>SO₂: 4.1 µg/m³<br>NO₂: 12.1 µg/m³<br>RSPM: 79.9 µg/m³<br>PM2.5: 53.8 µg/m³</div>`)[0];
+                popup_cc87c70bcdc3862368f7dcad59fbbe47.setContent(html_a1dd9e9b69f4e9af350aacd29a51bf35);
+            
+        
+
+        circle_marker_95cb586ecf2f06c5be661f50433c6071.bindPopup(popup_cc87c70bcdc3862368f7dcad59fbbe47)
+        ;
+
+        
+    
+    
+            var circle_marker_76265193d1a7974b943bf5ea524d6055 = L.circleMarker(
+                [12.9789, 77.5917],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_35b9802bb8624a24f5ee0e4cdc47e2a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21da8b2f07a5c8fdf8d3bf0b62b9cc37 = $(`<div id="html_21da8b2f07a5c8fdf8d3bf0b62b9cc37" style="width: 100.0%; height: 100.0%;"><b>Bangalore</b><br>SO₂: 13.5 µg/m³<br>NO₂: 33.0 µg/m³<br>RSPM: 104.3 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_35b9802bb8624a24f5ee0e4cdc47e2a4.setContent(html_21da8b2f07a5c8fdf8d3bf0b62b9cc37);
+            
+        
+
+        circle_marker_76265193d1a7974b943bf5ea524d6055.bindPopup(popup_35b9802bb8624a24f5ee0e4cdc47e2a4)
+        ;
+
+        
+    
+    
+            var circle_marker_0c146e2b6ad8b1f152afe3fa97bf9b63 = L.circleMarker(
+                [23.2599, 77.4126],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_3a2a62bd7170fd7bd99085c9b9691098 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_028368cfd42a6878699ad396e97cc3cf = $(`<div id="html_028368cfd42a6878699ad396e97cc3cf" style="width: 100.0%; height: 100.0%;"><b>Bhopal</b><br>SO₂: 5.8 µg/m³<br>NO₂: 18.2 µg/m³<br>RSPM: 114.7 µg/m³<br>PM2.5: 79.1 µg/m³</div>`)[0];
+                popup_3a2a62bd7170fd7bd99085c9b9691098.setContent(html_028368cfd42a6878699ad396e97cc3cf);
+            
+        
+
+        circle_marker_0c146e2b6ad8b1f152afe3fa97bf9b63.bindPopup(popup_3a2a62bd7170fd7bd99085c9b9691098)
+        ;
+
+        
+    
+    
+            var circle_marker_c7cf952a453e88b78f0a86e45ac3c342 = L.circleMarker(
+                [22.09, 82.15],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_7b2373f29dd9cb6cac00aaab5c63f401 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59c1e64896cd359c211fa29147ee9a0a = $(`<div id="html_59c1e64896cd359c211fa29147ee9a0a" style="width: 100.0%; height: 100.0%;"><b>Bilaspur</b><br>SO₂: 5.8 µg/m³<br>NO₂: 21.6 µg/m³<br>RSPM: 103.6 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_7b2373f29dd9cb6cac00aaab5c63f401.setContent(html_59c1e64896cd359c211fa29147ee9a0a);
+            
+        
+
+        circle_marker_c7cf952a453e88b78f0a86e45ac3c342.bindPopup(popup_7b2373f29dd9cb6cac00aaab5c63f401)
+        ;
+
+        
+    
+    
+            var circle_marker_7c87f895ba440c1a55aae3e29e629e88 = L.circleMarker(
+                [30.75, 76.78],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_fbe6f74a630b5d68992f90632f7dc1bc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f8ae2d2766a3af6e4a16236a79b9e70 = $(`<div id="html_6f8ae2d2766a3af6e4a16236a79b9e70" style="width: 100.0%; height: 100.0%;"><b>Chandigarh</b><br>SO₂: 5.2 µg/m³<br>NO₂: 19.0 µg/m³<br>RSPM: 96.3 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_fbe6f74a630b5d68992f90632f7dc1bc.setContent(html_6f8ae2d2766a3af6e4a16236a79b9e70);
+            
+        
+
+        circle_marker_7c87f895ba440c1a55aae3e29e629e88.bindPopup(popup_fbe6f74a630b5d68992f90632f7dc1bc)
+        ;
+
+        
+    
+    
+            var circle_marker_aa94dbdbc49f9375ff9841ab9ae8229b = L.circleMarker(
+                [13.0825, 80.275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_fcd172231d1107cd46cede3a1fdc70aa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5dcd729ce947ee7e5336c97088ae2046 = $(`<div id="html_5dcd729ce947ee7e5336c97088ae2046" style="width: 100.0%; height: 100.0%;"><b>Chennai</b><br>SO₂: 11.5 µg/m³<br>NO₂: 19.4 µg/m³<br>RSPM: 62.9 µg/m³<br>PM2.5: 23.1 µg/m³</div>`)[0];
+                popup_fcd172231d1107cd46cede3a1fdc70aa.setContent(html_5dcd729ce947ee7e5336c97088ae2046);
+            
+        
+
+        circle_marker_aa94dbdbc49f9375ff9841ab9ae8229b.bindPopup(popup_fcd172231d1107cd46cede3a1fdc70aa)
+        ;
+
+        
+    
+    
+            var circle_marker_1dfa86fda0451fad6a7e327e295306c2 = L.circleMarker(
+                [28.61, 77.23],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_09ba4ed858a4f393fad019496091aa50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_94bb5113f11c6c5fbe94ab48797fb2c2 = $(`<div id="html_94bb5113f11c6c5fbe94ab48797fb2c2" style="width: 100.0%; height: 100.0%;"><b>Delhi</b><br>SO₂: 8.7 µg/m³<br>NO₂: 51.5 µg/m³<br>RSPM: 173.1 µg/m³<br>PM2.5: 95.1 µg/m³</div>`)[0];
+                popup_09ba4ed858a4f393fad019496091aa50.setContent(html_94bb5113f11c6c5fbe94ab48797fb2c2);
+            
+        
+
+        circle_marker_1dfa86fda0451fad6a7e327e295306c2.bindPopup(popup_09ba4ed858a4f393fad019496091aa50)
+        ;
+
+        
+    
+    
+            var circle_marker_0ccdb712ad59641d022c6001f0ef4bfe = L.circleMarker(
+                [23.7998, 86.4305],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_d647ee5bf5b1b6ae001af14116617fe3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e12f6629f13a9cbc3f3455d9472b17c1 = $(`<div id="html_e12f6629f13a9cbc3f3455d9472b17c1" style="width: 100.0%; height: 100.0%;"><b>Dhanbad</b><br>SO₂: 17.6 µg/m³<br>NO₂: 39.9 µg/m³<br>RSPM: 151.9 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_d647ee5bf5b1b6ae001af14116617fe3.setContent(html_e12f6629f13a9cbc3f3455d9472b17c1);
+            
+        
+
+        circle_marker_0ccdb712ad59641d022c6001f0ef4bfe.bindPopup(popup_d647ee5bf5b1b6ae001af14116617fe3)
+        ;
+
+        
+    
+    
+            var circle_marker_db13c890c25067a48c90315b4315d4e6 = L.circleMarker(
+                [28.4211, 77.3078],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_e15c11d6e67ec06d999d08a79861215e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de2bf5b97e1856bc8dcea0293972db45 = $(`<div id="html_de2bf5b97e1856bc8dcea0293972db45" style="width: 100.0%; height: 100.0%;"><b>Faridabad</b><br>SO₂: 15.7 µg/m³<br>NO₂: 28.7 µg/m³<br>RSPM: 158.4 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_e15c11d6e67ec06d999d08a79861215e.setContent(html_de2bf5b97e1856bc8dcea0293972db45);
+            
+        
+
+        circle_marker_db13c890c25067a48c90315b4315d4e6.bindPopup(popup_e15c11d6e67ec06d999d08a79861215e)
+        ;
+
+        
+    
+    
+            var circle_marker_e672fa44f99c1b8481b97d3cf2663975 = L.circleMarker(
+                [28.67, 77.42],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_003826344d3d1b7a3b2a5a5fdfc8b583 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39f3e7e6d254a0d7b21149611ee6c087 = $(`<div id="html_39f3e7e6d254a0d7b21149611ee6c087" style="width: 100.0%; height: 100.0%;"><b>Ghaziabad</b><br>SO₂: 23.4 µg/m³<br>NO₂: 29.4 µg/m³<br>RSPM: 240.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_003826344d3d1b7a3b2a5a5fdfc8b583.setContent(html_39f3e7e6d254a0d7b21149611ee6c087);
+            
+        
+
+        circle_marker_e672fa44f99c1b8481b97d3cf2663975.bindPopup(popup_003826344d3d1b7a3b2a5a5fdfc8b583)
+        ;
+
+        
+    
+    
+            var circle_marker_1fb9c220cdec7b18a2e1f8829734d3d5 = L.circleMarker(
+                [26.1722, 91.7458],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_40dba3dd1f94944353183f461341489b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e5d815d91cbe93f18ed0414e7a7658f = $(`<div id="html_5e5d815d91cbe93f18ed0414e7a7658f" style="width: 100.0%; height: 100.0%;"><b>Guwahati</b><br>SO₂: 7.2 µg/m³<br>NO₂: 15.7 µg/m³<br>RSPM: 109.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_40dba3dd1f94944353183f461341489b.setContent(html_5e5d815d91cbe93f18ed0414e7a7658f);
+            
+        
+
+        circle_marker_1fb9c220cdec7b18a2e1f8829734d3d5.bindPopup(popup_40dba3dd1f94944353183f461341489b)
+        ;
+
+        
+    
+    
+            var circle_marker_9aab87ca22360aa78fbb57aa4c39018b = L.circleMarker(
+                [26.2124, 78.1772],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_950a2ab7223bcd260c0a91023e55525c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a536f263275a381f1ae6f7173f65f879 = $(`<div id="html_a536f263275a381f1ae6f7173f65f879" style="width: 100.0%; height: 100.0%;"><b>Gwalior</b><br>SO₂: 10.0 µg/m³<br>NO₂: 18.8 µg/m³<br>RSPM: 195.2 µg/m³<br>PM2.5: 77.2 µg/m³</div>`)[0];
+                popup_950a2ab7223bcd260c0a91023e55525c.setContent(html_a536f263275a381f1ae6f7173f65f879);
+            
+        
+
+        circle_marker_9aab87ca22360aa78fbb57aa4c39018b.bindPopup(popup_950a2ab7223bcd260c0a91023e55525c)
+        ;
+
+        
+    
+    
+            var circle_marker_4dc6d83a420d97750a7b195ba9464956 = L.circleMarker(
+                [29.22, 79.52],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_dcd1ab26db6f3e0c1988102c53c683d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_215e68b182dc42df86256e60ab666dd9 = $(`<div id="html_215e68b182dc42df86256e60ab666dd9" style="width: 100.0%; height: 100.0%;"><b>Haldwani</b><br>SO₂: 8.3 µg/m³<br>NO₂: 22.1 µg/m³<br>RSPM: 138.3 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_dcd1ab26db6f3e0c1988102c53c683d3.setContent(html_215e68b182dc42df86256e60ab666dd9);
+            
+        
+
+        circle_marker_4dc6d83a420d97750a7b195ba9464956.bindPopup(popup_dcd1ab26db6f3e0c1988102c53c683d3)
+        ;
+
+        
+    
+    
+            var circle_marker_9f4cb77b61ba4882e8b6a0bbc8a71935 = L.circleMarker(
+                [17.3617, 78.4747],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_6fe725a8e8e704878b9f43abe15ae0a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9291d842c25250ec24446755819f6a34 = $(`<div id="html_9291d842c25250ec24446755819f6a34" style="width: 100.0%; height: 100.0%;"><b>Hyderabad</b><br>SO₂: 5.6 µg/m³<br>NO₂: 25.7 µg/m³<br>RSPM: 87.6 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_6fe725a8e8e704878b9f43abe15ae0a5.setContent(html_9291d842c25250ec24446755819f6a34);
+            
+        
+
+        circle_marker_9f4cb77b61ba4882e8b6a0bbc8a71935.bindPopup(popup_6fe725a8e8e704878b9f43abe15ae0a5)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe0801a93950ecf6d98b8d2f4e8d8c8 = L.circleMarker(
+                [22.7167, 75.8472],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_eda2422419deb026be0ae14956ba5c33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e24f782ad64689731766a7d25f94cb2e = $(`<div id="html_e24f782ad64689731766a7d25f94cb2e" style="width: 100.0%; height: 100.0%;"><b>Indore</b><br>SO₂: 10.3 µg/m³<br>NO₂: 17.5 µg/m³<br>RSPM: 124.7 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_eda2422419deb026be0ae14956ba5c33.setContent(html_e24f782ad64689731766a7d25f94cb2e);
+            
+        
+
+        circle_marker_9fe0801a93950ecf6d98b8d2f4e8d8c8.bindPopup(popup_eda2422419deb026be0ae14956ba5c33)
+        ;
+
+        
+    
+    
+            var circle_marker_abddedb46f21d25789943745475ed7ac = L.circleMarker(
+                [23.1667, 79.9333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_c706b1f7fbca282b17d49bbc18e2473e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f18dbb8c840e6e19414129491d1be27b = $(`<div id="html_f18dbb8c840e6e19414129491d1be27b" style="width: 100.0%; height: 100.0%;"><b>Jabalpur</b><br>SO₂: 5.0 µg/m³<br>NO₂: 23.5 µg/m³<br>RSPM: 91.7 µg/m³<br>PM2.5: 39.9 µg/m³</div>`)[0];
+                popup_c706b1f7fbca282b17d49bbc18e2473e.setContent(html_f18dbb8c840e6e19414129491d1be27b);
+            
+        
+
+        circle_marker_abddedb46f21d25789943745475ed7ac.bindPopup(popup_c706b1f7fbca282b17d49bbc18e2473e)
+        ;
+
+        
+    
+    
+            var circle_marker_ca4cec8fff9247314c1f94a2c3efc5f2 = L.circleMarker(
+                [26.9, 75.8],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_d37c68fc1ccaedaecb718a63edae75ca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_543c048d270d6eda70f6d272750bb520 = $(`<div id="html_543c048d270d6eda70f6d272750bb520" style="width: 100.0%; height: 100.0%;"><b>Jaipur</b><br>SO₂: 7.0 µg/m³<br>NO₂: 34.4 µg/m³<br>RSPM: 138.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_d37c68fc1ccaedaecb718a63edae75ca.setContent(html_543c048d270d6eda70f6d272750bb520);
+            
+        
+
+        circle_marker_ca4cec8fff9247314c1f94a2c3efc5f2.bindPopup(popup_d37c68fc1ccaedaecb718a63edae75ca)
+        ;
+
+        
+    
+    
+            var circle_marker_4f90122c9bfcd5ffe8781ff842c1e814 = L.circleMarker(
+                [22.7925, 86.1842],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_9149ccaf71b15863b90d2457bd131c13 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5bdc16c21cfd20a2685b9181619f237 = $(`<div id="html_e5bdc16c21cfd20a2685b9181619f237" style="width: 100.0%; height: 100.0%;"><b>Jamshedpur</b><br>SO₂: 38.1 µg/m³<br>NO₂: 49.5 µg/m³<br>RSPM: 153.0 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_9149ccaf71b15863b90d2457bd131c13.setContent(html_e5bdc16c21cfd20a2685b9181619f237);
+            
+        
+
+        circle_marker_4f90122c9bfcd5ffe8781ff842c1e814.bindPopup(popup_9149ccaf71b15863b90d2457bd131c13)
+        ;
+
+        
+    
+    
+            var circle_marker_d231c2e0c9ce90593b2191e6fe462bb3 = L.circleMarker(
+                [26.28, 73.02],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_40bec3396d782b6bad54745642b5de88 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3fd8406fe26b67d11a39de776adceeb = $(`<div id="html_b3fd8406fe26b67d11a39de776adceeb" style="width: 100.0%; height: 100.0%;"><b>Jodhpur</b><br>SO₂: 6.6 µg/m³<br>NO₂: 22.7 µg/m³<br>RSPM: 145.7 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_40bec3396d782b6bad54745642b5de88.setContent(html_b3fd8406fe26b67d11a39de776adceeb);
+            
+        
+
+        circle_marker_d231c2e0c9ce90593b2191e6fe462bb3.bindPopup(popup_40bec3396d782b6bad54745642b5de88)
+        ;
+
+        
+    
+    
+            var circle_marker_aa19b49b6a27ae90a3dd2ffaa13ae534 = L.circleMarker(
+                [26.4499, 80.3319],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_536a9498999f56b9aea2ce8cc1a9cd85 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cfc606dc8f1b24cf7b00aea559406f75 = $(`<div id="html_cfc606dc8f1b24cf7b00aea559406f75" style="width: 100.0%; height: 100.0%;"><b>Kanpur</b><br>SO₂: 7.8 µg/m³<br>NO₂: 27.5 µg/m³<br>RSPM: 180.6 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_536a9498999f56b9aea2ce8cc1a9cd85.setContent(html_cfc606dc8f1b24cf7b00aea559406f75);
+            
+        
+
+        circle_marker_aa19b49b6a27ae90a3dd2ffaa13ae534.bindPopup(popup_536a9498999f56b9aea2ce8cc1a9cd85)
+        ;
+
+        
+    
+    
+            var circle_marker_a6612bd73dccd3752b5be531cf1c498c = L.circleMarker(
+                [22.5675, 88.37],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_80749076429d8a5960ea6d994a8b9cb6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a2c6053c8e0c9480e24ef1bf7fe67a2 = $(`<div id="html_5a2c6053c8e0c9480e24ef1bf7fe67a2" style="width: 100.0%; height: 100.0%;"><b>Kolkata</b><br>SO₂: 10.3 µg/m³<br>NO₂: 60.2 µg/m³<br>RSPM: 116.8 µg/m³<br>PM2.5: 58.2 µg/m³</div>`)[0];
+                popup_80749076429d8a5960ea6d994a8b9cb6.setContent(html_5a2c6053c8e0c9480e24ef1bf7fe67a2);
+            
+        
+
+        circle_marker_a6612bd73dccd3752b5be531cf1c498c.bindPopup(popup_80749076429d8a5960ea6d994a8b9cb6)
+        ;
+
+        
+    
+    
+            var circle_marker_3b3978141811a0b38d20b3e983670d74 = L.circleMarker(
+                [25.18, 75.83],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_7dc4306e837c2fcdf1e60e8b93770449 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_44229d086f05c9da8ce5b0c0f604333c = $(`<div id="html_44229d086f05c9da8ce5b0c0f604333c" style="width: 100.0%; height: 100.0%;"><b>Kota</b><br>SO₂: 8.5 µg/m³<br>NO₂: 32.5 µg/m³<br>RSPM: 118.0 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_7dc4306e837c2fcdf1e60e8b93770449.setContent(html_44229d086f05c9da8ce5b0c0f604333c);
+            
+        
+
+        circle_marker_3b3978141811a0b38d20b3e983670d74.bindPopup(popup_7dc4306e837c2fcdf1e60e8b93770449)
+        ;
+
+        
+    
+    
+            var circle_marker_9c533313034d1afbb1b9b732cc34a0f3 = L.circleMarker(
+                [26.85, 80.95],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_fbe3861ef47d4921888e987b4ff29b9d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51af44a9482595112389986dea962e92 = $(`<div id="html_51af44a9482595112389986dea962e92" style="width: 100.0%; height: 100.0%;"><b>Lucknow</b><br>SO₂: 9.9 µg/m³<br>NO₂: 31.1 µg/m³<br>RSPM: 181.0 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_fbe3861ef47d4921888e987b4ff29b9d.setContent(html_51af44a9482595112389986dea962e92);
+            
+        
+
+        circle_marker_9c533313034d1afbb1b9b732cc34a0f3.bindPopup(popup_fbe3861ef47d4921888e987b4ff29b9d)
+        ;
+
+        
+    
+    
+            var circle_marker_50e359216d55959b3c198c08bd11d9b5 = L.circleMarker(
+                [30.91, 75.85],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_52bae8dc0d2f3f981b7765626f2e0190 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e945e09f00c8d5978d44f618887b08f4 = $(`<div id="html_e945e09f00c8d5978d44f618887b08f4" style="width: 100.0%; height: 100.0%;"><b>Ludhiana</b><br>SO₂: 12.1 µg/m³<br>NO₂: 33.1 µg/m³<br>RSPM: 210.0 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_52bae8dc0d2f3f981b7765626f2e0190.setContent(html_e945e09f00c8d5978d44f618887b08f4);
+            
+        
+
+        circle_marker_50e359216d55959b3c198c08bd11d9b5.bindPopup(popup_52bae8dc0d2f3f981b7765626f2e0190)
+        ;
+
+        
+    
+    
+            var circle_marker_9e3c14a5a31ccf2afdcc79cb32365e10 = L.circleMarker(
+                [9.9252, 78.1198],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_c5894f12811befbf4e1e380360a541fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f80bf5c0c2e5d5f7b7d8a4a84a149f9b = $(`<div id="html_f80bf5c0c2e5d5f7b7d8a4a84a149f9b" style="width: 100.0%; height: 100.0%;"><b>Madurai</b><br>SO₂: 11.1 µg/m³<br>NO₂: 24.4 µg/m³<br>RSPM: 47.5 µg/m³<br>PM2.5: 31.6 µg/m³</div>`)[0];
+                popup_c5894f12811befbf4e1e380360a541fd.setContent(html_f80bf5c0c2e5d5f7b7d8a4a84a149f9b);
+            
+        
+
+        circle_marker_9e3c14a5a31ccf2afdcc79cb32365e10.bindPopup(popup_c5894f12811befbf4e1e380360a541fd)
+        ;
+
+        
+    
+    
+            var circle_marker_b118f2adbc2889d2a27fed67e050ac21 = L.circleMarker(
+                [13.1667, 80.2667],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_e1e47c6a43f9683f898360aed4459335 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b2a2bf5dee5f4dc775ee742ed054bda0 = $(`<div id="html_b2a2bf5dee5f4dc775ee742ed054bda0" style="width: 100.0%; height: 100.0%;"><b>Manali</b><br>SO₂: 2.9 µg/m³<br>NO₂: 11.7 µg/m³<br>RSPM: 51.5 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_e1e47c6a43f9683f898360aed4459335.setContent(html_b2a2bf5dee5f4dc775ee742ed054bda0);
+            
+        
+
+        circle_marker_b118f2adbc2889d2a27fed67e050ac21.bindPopup(popup_e1e47c6a43f9683f898360aed4459335)
+        ;
+
+        
+    
+    
+            var circle_marker_9b99f7b8844780ea0999e7b67b7207d6 = L.circleMarker(
+                [28.98, 77.71],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_e7acde2c87d1dc9dd7769874a572616b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b641eba188654dde1baad992409bd9a = $(`<div id="html_9b641eba188654dde1baad992409bd9a" style="width: 100.0%; height: 100.0%;"><b>Meerut</b><br>SO₂: 7.4 µg/m³<br>NO₂: 44.0 µg/m³<br>RSPM: 127.4 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_e7acde2c87d1dc9dd7769874a572616b.setContent(html_9b641eba188654dde1baad992409bd9a);
+            
+        
+
+        circle_marker_9b99f7b8844780ea0999e7b67b7207d6.bindPopup(popup_e7acde2c87d1dc9dd7769874a572616b)
+        ;
+
+        
+    
+    
+            var circle_marker_546204c67f9e8580437482ffbc937e88 = L.circleMarker(
+                [19.0761, 72.8775],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_706dd4bd81c4b28da1b4d845ee0e3e40 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_91fcbe91a2cb8c277cbb7c638f3ce878 = $(`<div id="html_91fcbe91a2cb8c277cbb7c638f3ce878" style="width: 100.0%; height: 100.0%;"><b>Mumbai</b><br>SO₂: 6.4 µg/m³<br>NO₂: 28.3 µg/m³<br>RSPM: 110.7 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_706dd4bd81c4b28da1b4d845ee0e3e40.setContent(html_91fcbe91a2cb8c277cbb7c638f3ce878);
+            
+        
+
+        circle_marker_546204c67f9e8580437482ffbc937e88.bindPopup(popup_706dd4bd81c4b28da1b4d845ee0e3e40)
+        ;
+
+        
+    
+    
+            var circle_marker_c9805a26a235dd92218f37fe7e137de5 = L.circleMarker(
+                [21.1497, 79.0806],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_a12e10214011040f5b27fa236fe64289 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0067178b7b2e0f90d3a67328432fc375 = $(`<div id="html_0067178b7b2e0f90d3a67328432fc375" style="width: 100.0%; height: 100.0%;"><b>Nagpur</b><br>SO₂: 9.1 µg/m³<br>NO₂: 28.2 µg/m³<br>RSPM: 93.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_a12e10214011040f5b27fa236fe64289.setContent(html_0067178b7b2e0f90d3a67328432fc375);
+            
+        
+
+        circle_marker_c9805a26a235dd92218f37fe7e137de5.bindPopup(popup_a12e10214011040f5b27fa236fe64289)
+        ;
+
+        
+    
+    
+            var circle_marker_9036e512f7f089981aa84643f37240dc = L.circleMarker(
+                [25.594, 85.1376],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_22f4b8af637af597d0b108576a3ee312 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2a71cf81da2e553716b45d76170cc5e = $(`<div id="html_a2a71cf81da2e553716b45d76170cc5e" style="width: 100.0%; height: 100.0%;"><b>Patna</b><br>SO₂: 9.6 µg/m³<br>NO₂: 32.3 µg/m³<br>RSPM: 118.7 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_22f4b8af637af597d0b108576a3ee312.setContent(html_a2a71cf81da2e553716b45d76170cc5e);
+            
+        
+
+        circle_marker_9036e512f7f089981aa84643f37240dc.bindPopup(popup_22f4b8af637af597d0b108576a3ee312)
+        ;
+
+        
+    
+    
+            var circle_marker_f41fe16ce0f2f1c50e24df6463af0039 = L.circleMarker(
+                [18.5203, 73.8567],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_17c07ece5e949f54910e29bd409fc5e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7add7863ca973d0335a82b205d4255a2 = $(`<div id="html_7add7863ca973d0335a82b205d4255a2" style="width: 100.0%; height: 100.0%;"><b>Pune</b><br>SO₂: 24.6 µg/m³<br>NO₂: 45.3 µg/m³<br>RSPM: 106.3 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_17c07ece5e949f54910e29bd409fc5e8.setContent(html_7add7863ca973d0335a82b205d4255a2);
+            
+        
+
+        circle_marker_f41fe16ce0f2f1c50e24df6463af0039.bindPopup(popup_17c07ece5e949f54910e29bd409fc5e8)
+        ;
+
+        
+    
+    
+            var circle_marker_7091a9b91104b86567d4335db27f16e8 = L.circleMarker(
+                [19.8, 85.8167],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_923bf0f2dc6a8c66364c5fccfd53c28a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a4c3a1988bc4489003046550cce8088 = $(`<div id="html_0a4c3a1988bc4489003046550cce8088" style="width: 100.0%; height: 100.0%;"><b>Puri</b><br>SO₂: 2.3 µg/m³<br>NO₂: 17.1 µg/m³<br>RSPM: 93.7 µg/m³<br>PM2.5: 30.2 µg/m³</div>`)[0];
+                popup_923bf0f2dc6a8c66364c5fccfd53c28a.setContent(html_0a4c3a1988bc4489003046550cce8088);
+            
+        
+
+        circle_marker_7091a9b91104b86567d4335db27f16e8.bindPopup(popup_923bf0f2dc6a8c66364c5fccfd53c28a)
+        ;
+
+        
+    
+    
+            var circle_marker_207d3dcf983c6763a69d572ee93bae78 = L.circleMarker(
+                [21.2444, 81.6306],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_52fa8c93beffc042153c28959e1a8ef7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b3d1d106bb28c647745921ddde228f86 = $(`<div id="html_b3d1d106bb28c647745921ddde228f86" style="width: 100.0%; height: 100.0%;"><b>Raipur</b><br>SO₂: 13.7 µg/m³<br>NO₂: 36.1 µg/m³<br>RSPM: 186.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_52fa8c93beffc042153c28959e1a8ef7.setContent(html_b3d1d106bb28c647745921ddde228f86);
+            
+        
+
+        circle_marker_207d3dcf983c6763a69d572ee93bae78.bindPopup(popup_52fa8c93beffc042153c28959e1a8ef7)
+        ;
+
+        
+    
+    
+            var circle_marker_c3f07533e7e82cdaaf2b6d9624825e6a = L.circleMarker(
+                [22.3, 70.7833],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_120db1b6148cd14231d632c1df02bd7f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31ab48a361dcba7926dc91f8ef5ad6df = $(`<div id="html_31ab48a361dcba7926dc91f8ef5ad6df" style="width: 100.0%; height: 100.0%;"><b>Rajkot</b><br>SO₂: 12.3 µg/m³<br>NO₂: 17.6 µg/m³<br>RSPM: 111.2 µg/m³<br>PM2.5: 30.2 µg/m³</div>`)[0];
+                popup_120db1b6148cd14231d632c1df02bd7f.setContent(html_31ab48a361dcba7926dc91f8ef5ad6df);
+            
+        
+
+        circle_marker_c3f07533e7e82cdaaf2b6d9624825e6a.bindPopup(popup_120db1b6148cd14231d632c1df02bd7f)
+        ;
+
+        
+    
+    
+            var circle_marker_f9f5bbd31f3ac01d63dde17a9144dad8 = L.circleMarker(
+                [23.36, 85.33],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_e77fccb5a4f4aff0282c996b60c58b5b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7fb9d91b88a6e3e8f98e8e4290ab2b76 = $(`<div id="html_7fb9d91b88a6e3e8f98e8e4290ab2b76" style="width: 100.0%; height: 100.0%;"><b>Ranchi</b><br>SO₂: 18.8 µg/m³<br>NO₂: 35.0 µg/m³<br>RSPM: 174.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_e77fccb5a4f4aff0282c996b60c58b5b.setContent(html_7fb9d91b88a6e3e8f98e8e4290ab2b76);
+            
+        
+
+        circle_marker_f9f5bbd31f3ac01d63dde17a9144dad8.bindPopup(popup_e77fccb5a4f4aff0282c996b60c58b5b)
+        ;
+
+        
+    
+    
+            var circle_marker_d7a0ba52967a316d9f7c616eeb9bb608 = L.circleMarker(
+                [31.1033, 77.1722],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_b466c97953d1de81d44ae73e1ec14292 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b87fc80c997749b28b40c588d3ba348b = $(`<div id="html_b87fc80c997749b28b40c588d3ba348b" style="width: 100.0%; height: 100.0%;"><b>Shimla</b><br>SO₂: 4.4 µg/m³<br>NO₂: 13.6 µg/m³<br>RSPM: 61.2 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_b466c97953d1de81d44ae73e1ec14292.setContent(html_b87fc80c997749b28b40c588d3ba348b);
+            
+        
+
+        circle_marker_d7a0ba52967a316d9f7c616eeb9bb608.bindPopup(popup_b466c97953d1de81d44ae73e1ec14292)
+        ;
+
+        
+    
+    
+            var circle_marker_115551966234977438c211c02a0cb151 = L.circleMarker(
+                [21.1702, 72.8311],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_40980a5fa024d2e2f1c96a35ce21cb0b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6462dac164c86a458e423ee69c4c6b50 = $(`<div id="html_6462dac164c86a458e423ee69c4c6b50" style="width: 100.0%; height: 100.0%;"><b>Surat</b><br>SO₂: 20.2 µg/m³<br>NO₂: 26.3 µg/m³<br>RSPM: 97.6 µg/m³<br>PM2.5: 30.8 µg/m³</div>`)[0];
+                popup_40980a5fa024d2e2f1c96a35ce21cb0b.setContent(html_6462dac164c86a458e423ee69c4c6b50);
+            
+        
+
+        circle_marker_115551966234977438c211c02a0cb151.bindPopup(popup_40980a5fa024d2e2f1c96a35ce21cb0b)
+        ;
+
+        
+    
+    
+            var circle_marker_db5e6077732885d4c310c66cb754fd98 = L.circleMarker(
+                [19.1972, 72.9722],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_93d6a57126d6416820ea9e53d65927b5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bd2c4dcf04882a08e8aaa8573af35d77 = $(`<div id="html_bd2c4dcf04882a08e8aaa8573af35d77" style="width: 100.0%; height: 100.0%;"><b>Thane</b><br>SO₂: 14.4 µg/m³<br>NO₂: 23.5 µg/m³<br>RSPM: 78.3 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_93d6a57126d6416820ea9e53d65927b5.setContent(html_bd2c4dcf04882a08e8aaa8573af35d77);
+            
+        
+
+        circle_marker_db5e6077732885d4c310c66cb754fd98.bindPopup(popup_93d6a57126d6416820ea9e53d65927b5)
+        ;
+
+        
+    
+    
+            var circle_marker_d441c43cff1b72bdf6b6041700e2266f = L.circleMarker(
+                [22.3, 73.2],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_21d5f8856c28ba9da3951967078bc660 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de2fc588c244c0ef29215e5412b26fb9 = $(`<div id="html_de2fc588c244c0ef29215e5412b26fb9" style="width: 100.0%; height: 100.0%;"><b>Vadodara</b><br>SO₂: 15.5 µg/m³<br>NO₂: 26.4 µg/m³<br>RSPM: 95.8 µg/m³<br>PM2.5: 32.4 µg/m³</div>`)[0];
+                popup_21d5f8856c28ba9da3951967078bc660.setContent(html_de2fc588c244c0ef29215e5412b26fb9);
+            
+        
+
+        circle_marker_d441c43cff1b72bdf6b6041700e2266f.bindPopup(popup_21d5f8856c28ba9da3951967078bc660)
+        ;
+
+        
+    
+    
+            var circle_marker_cb0fd439cdd446c5cecaf86267c7e9aa = L.circleMarker(
+                [25.3189, 83.0128],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_587c16aac45ddc3061a08f4820372959 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9efd42e9be0af736dc54a90f87e53d8 = $(`<div id="html_e9efd42e9be0af736dc54a90f87e53d8" style="width: 100.0%; height: 100.0%;"><b>Varanasi</b><br>SO₂: 16.8 µg/m³<br>NO₂: 21.9 µg/m³<br>RSPM: 118.3 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_587c16aac45ddc3061a08f4820372959.setContent(html_e9efd42e9be0af736dc54a90f87e53d8);
+            
+        
+
+        circle_marker_cb0fd439cdd446c5cecaf86267c7e9aa.bindPopup(popup_587c16aac45ddc3061a08f4820372959)
+        ;
+
+        
+    
+    
+            var circle_marker_afbcf929f7d9355c86cd59160b721f5d = L.circleMarker(
+                [17.7042, 83.2978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bb78ff8788456af69c17d6c686607bea);
+        
+    
+        var popup_4d79d338e8acf3fd6dc8429cef4ff0ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7e97f89ec980c4b29fa7ae9f8d6c976 = $(`<div id="html_d7e97f89ec980c4b29fa7ae9f8d6c976" style="width: 100.0%; height: 100.0%;"><b>Vishakhapatnam</b><br>SO₂: 19.5 µg/m³<br>NO₂: 33.0 µg/m³<br>RSPM: 90.0 µg/m³<br>PM2.5: nan µg/m³</div>`)[0];
+                popup_4d79d338e8acf3fd6dc8429cef4ff0ec.setContent(html_d7e97f89ec980c4b29fa7ae9f8d6c976);
+            
+        
+
+        circle_marker_afbcf929f7d9355c86cd59160b721f5d.bindPopup(popup_4d79d338e8acf3fd6dc8429cef4ff0ec)
+        ;
+
+        
+    
+</script>
+</html>
